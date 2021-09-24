@@ -1,0 +1,13 @@
+taskInput:
+  files:
+    - '*.json'
+    - '*.txt'
+    - '*.doc'
+  source: /test/data
+taskOutput:
+  name: copier
+  id: 1000
+  parameters:
+    - aaa
+    - bbb
+    - ccc
